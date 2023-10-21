@@ -1,4 +1,4 @@
-
+#config of TSRepLKNet b-res on Mini Kinetics-20
 model = dict(
     type='Recognizer2D',
     backbone=dict(
