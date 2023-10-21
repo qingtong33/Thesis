@@ -1,4 +1,4 @@
-
+#config of TSRepLKNet a-res on Kinetics-400
 model = dict(
     type='Recognizer2D',
     backbone=dict(
