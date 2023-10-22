@@ -1,3 +1,4 @@
+#num_segments in this file should equal to config
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule, constant_init, kaiming_init
