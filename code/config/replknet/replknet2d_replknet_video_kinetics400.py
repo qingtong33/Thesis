@@ -1,3 +1,4 @@
+#TSEGRepLKNet with step lr policy
 checkpoint_config = dict(interval=5)
 log_config = dict(interval=20, hooks=[dict(type='TextLoggerHook'), dict(type='TensorboardLoggerHook')])
 dist_params = dict(backend='nccl')
