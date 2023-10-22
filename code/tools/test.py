@@ -1,4 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
+#use this test.py to use reparameterization of RepLKNet
 import argparse
 import os
 import os.path as osp
