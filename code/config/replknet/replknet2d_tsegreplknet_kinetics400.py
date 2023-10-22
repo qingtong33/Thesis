@@ -185,7 +185,7 @@ evaluation = dict(
 optimizer = dict(type='SGD', lr=0.008, momentum=0.9, weight_decay=0.0001)
 optimizer_config = dict(grad_clip=dict(max_norm=40, norm_type=2))
 lr_config = dict(policy='step', step=[40,60])
-total_epochs = 70
+total_epochs = 0
 work_dir = './work_dirs/replknet2d_relplknet_video_kinetics400_rgb_sdg5/'
 gpu_ids = range(0, 6)
 omnisource = False
