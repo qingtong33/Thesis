@@ -1,4 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
+# change the recoginzers file to support test.py's change
 import torch
 from torch import nn
 
