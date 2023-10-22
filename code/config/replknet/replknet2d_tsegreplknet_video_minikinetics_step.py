@@ -185,7 +185,7 @@ data = dict(
         ]))
 evaluation = dict(
     interval=1, metrics=['top_k_accuracy', 'mean_class_accuracy'])
-optimizer = dict(type='SGD', lr=0.006, momentum=0.9, weight_decay=0.0001)
+optimizer = dict(type='SGD', lr=0.008, momentum=0.9, weight_decay=0.0001)
 optimizer_config = dict(grad_clip=dict(max_norm=40, norm_type=2))
 lr_config = dict(policy='step', step=[40, 60])
 total_epochs = 80
