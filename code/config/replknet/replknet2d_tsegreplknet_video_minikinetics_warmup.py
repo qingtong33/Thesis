@@ -1,3 +1,4 @@
+
 checkpoint_config = dict(interval=5)
 log_config = dict(
     interval=20,
